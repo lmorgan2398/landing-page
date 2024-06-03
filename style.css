@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", serif;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.header-footer-container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    width: 1200px;
+}
+
+.links,
+.secondary-text,
+.placeholder {
+    color: #E5E7EB;
+}
+
+.logo,
+.main-text,
+.sign-up {
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 225px;
+    background-color: gray;
+}
+
+.hero {
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.hero-text {
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 1000px;
+    margin: 0px;
+}
+
+.secondary-text {
+    margin: 0;
+}
+
+.sign-up {
+    display: inline-block;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 16px;
+}
