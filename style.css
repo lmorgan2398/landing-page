@@ -34,7 +34,7 @@ body {
 
 .links,
 .secondary-text,
-.placeholder {
+.hero .placeholder {
     color: #E5E7EB;
 }
 
@@ -51,7 +51,7 @@ body {
     gap: 16px;
 }
 
-.placeholder {
+.hero .placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +87,62 @@ body {
     border-radius: 10px;
     font-weight: 700;
     margin-top: 16px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 1000px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.information {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+.information-cards {
+    display: flex;
+    flex: 1 0 1;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+    width: 150px;
+    height: 300px;
+    padding: 0px 50px;
+}
+
+.card .placeholder {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.image-text {
+    width: 150px;
+    text-align: center;
 }
