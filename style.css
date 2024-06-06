@@ -2,8 +2,12 @@
     font-family: "Roboto", sans-serif;
 }
 
-body,
 html {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -17,6 +21,7 @@ html {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 /* header CSS */
@@ -39,11 +44,9 @@ html {
 .header {
     display: flex;
     flex: auto;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1000px;
-    margin: 16px;
-    gap: 24px 454.75px;
+    margin: 16px 0px;
 }
 
 .header-logo {
@@ -170,6 +173,11 @@ html {
 }
 
 .information-container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.information {
     flex-direction: column;
     justify-content: center;
 }
@@ -198,6 +206,7 @@ html {
     flex-wrap: wrap;
     gap: 50px;
     max-width: 850px;
+    margin-bottom: 100px;
 }
 
 .information-card {
@@ -222,4 +231,47 @@ html {
     text-align: center;
     color: rgb(101, 112, 136);
     font-size: 18px;
+}
+
+/* quote CSS */
+
+.quote-container,
+.quote-text-container,
+.quote-text,
+.quote-credit-container,
+.quote-credit {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quote-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text-container {
+    justify-content: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 790px;
+    text-wrap: wrap;
+    margin: 150px 0px 0px 0px;
+}
+
+.quote-credit-container {
+    width: 725px;
+    justify-content: flex-end;
+}
+
+.quote-credit {
+    text-wrap: nowrap;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 0px 150px;
 }
