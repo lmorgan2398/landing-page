@@ -287,3 +287,47 @@ body {
     font-weight: 700;
     margin: 0px 0px 150px;
 }
+
+/* action CSS */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    margin: 125px 0px;
+    max-width: 750px;
+}
+
+.action-text {
+    min-width: 120px;
+}
+
+.action-text-main {
+    color: #F9FAF9;
+    margin: 0px;
+}
+
+.action-text-secondary {
+    color: #F9FAF9;
+    margin: 4px 0px 0px;
+}
+
+.action-sign-up {
+    color: #F9FAF9;
+    text-align: center;
+    font-weight: 700;
+    text-wrap: nowrap;
+    padding: 8px 32px;
+    border: 2px solid #F9FAF9;
+    border-radius: 8px;
+    margin-left: 24px;
+}
