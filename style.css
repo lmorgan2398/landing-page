@@ -74,6 +74,7 @@ body {
     color: #E5E7EB;
     vertical-align: center;
     flex-wrap: wrap;
+    text-wrap: nowrap;
 }
 
 .header-link-one {
