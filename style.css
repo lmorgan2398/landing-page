@@ -237,6 +237,7 @@ body {
 /* quote CSS */
 
 .quote-container,
+.quote,
 .quote-text-container,
 .quote-text,
 .quote-credit-container,
@@ -246,8 +247,14 @@ body {
 }
 
 .quote-container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote {
     flex-direction: column;
     align-items: center;
+    max-width: 790px;
 }
 
 .quote-text-container {
@@ -260,13 +267,17 @@ body {
     font-weight: 300;
     font-style: italic;
     max-width: 790px;
+    min-width: 0px;
     text-wrap: wrap;
     margin: 150px 0px 0px 0px;
+    justify-content: center;
 }
 
 .quote-credit-container {
-    width: 725px;
+    max-width: 725px;
     justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 25px;
 }
 
 .quote-credit {
